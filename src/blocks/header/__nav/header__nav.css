@@ -1,0 +1,22 @@
+.header__nav {
+  display: flex;
+  margin-top: 6px;
+  gap: 24px;
+  transition: height 0.2s linear;
+}
+
+@media screen and (max-width: 700px) {
+  .header__nav {
+    flex-direction: column;
+    height: 0;
+    overflow: hidden;
+    text-align: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 10;
+  }
+}

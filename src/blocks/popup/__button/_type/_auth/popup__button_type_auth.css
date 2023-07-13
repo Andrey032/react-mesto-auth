@@ -1,0 +1,12 @@
+.popup__button_type_auth {
+  background-color: #FFFFFF;
+  color: black;
+  margin: 182px auto 15px;
+}
+
+@media screen and (max-width: 580px) {
+  .popup__button_type_auth {
+    margin: 139px auto 20px;
+    max-width: 260px;
+  }
+}

@@ -1,0 +1,12 @@
+.popup__title_type_success {
+  width: 358px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+@media screen and (max-width: 580px) {
+  .popup__title_type_success {
+    max-width: 244px;
+  }
+}

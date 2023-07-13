@@ -1,0 +1,5 @@
+.header__opened {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 142px;
+}
